@@ -10,7 +10,7 @@
 
 (👉Under construction! There are several redundancies in the current version, and the commands/instructions are not perfectly ready for formal release. I will gradually update it! Please stay tuned.)
 
-**2024/09/14:** Our [homepage](https://runjia.tech/vfpt_page/) is available now (slides and video are on the way)! Check it out to see more details.
+**2024/09/14:** Our [homepage](https://runjia.tech/emnlp_mept/) is available now (slides and video are on the way)! Check it out to see more details.
 
 **2025/09/13:** Our code is publicly available now! Thank you for your attention and patience!
 
