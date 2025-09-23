@@ -14,7 +14,11 @@
 
 **2025/09/13:** Our code is publicly available now! Thank you for your attention and patience!
 
-## Install required modules 
+#  📰Poster
+
+![image](https://github.com/runtsang/MEPT/blob/master/imgs/poster.jpg)
+
+# Install required modules 
 
 This codebase is implemented on Python 3.9.18. 
 Run 
@@ -34,14 +38,14 @@ Run
 pip install -e .
 ```
 
-## Downloading the Dataset
+# Downloading the Dataset
 Download the SuperGLUE datasets by
 ```
 python data/superglue/get_huggingface_superglue.py
 ```
 or use your custom dataset. In that case, you need to create your custom `Dataset` class for your dataset in `src/dataset.py` and apply mandatory changes such as importing your dataset or modifying the training script.
 
-## Training
+# Training
 ![image](https://github.com/runtsang/MEPT/blob/master/imgs/overview.jpg)
 
 Then, you can execute `scripts/train.py` with training arguments as follows
@@ -71,7 +75,7 @@ python scripts/train.py \
 --txt {txt}
 ```
 
-### Arguments
+## Arguments
 - `method`: The training method
   - `full`: Full model fine-tuning
   - `prompt-tuning`: Directly fine-tuning the soft prompts (from [Lester et al., 2021](https://aclanthology.org/2021.emnlp-main.243/))
@@ -93,7 +97,7 @@ python scripts/train.py \
 - `layers`: Defines the layers where prompts are inserted. The default applies to all layers.
 
 
-## Citation
+# Citation
 ```
 @inproceedings{zeng2025mept,
   title={MEPT: Mixture of Expert Prompt Tuning as a Manifold Mapper},
@@ -103,7 +107,7 @@ python scripts/train.py \
 }
 ```
 
-## Acknowledgments
+# Acknowledgments
 The documentation above and code are copied and modified  from [SMoP](https://github.com/jyjohnchoi/SMoP). Thanks for their effort.
 
 Our implementation is largely based on the [HuggingFace PEFT](https://github.com/huggingface/peft) library.
